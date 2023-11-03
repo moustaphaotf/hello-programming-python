@@ -1,4 +1,4 @@
-# Introcution à la programmation python
+# Introduction à la programmation python
 Nous apprenons les bases de la programmation avec le langage `python` avec quelques notions essentielles
 Ce que ce didactitiel couvre:
 
