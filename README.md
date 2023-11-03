@@ -102,6 +102,8 @@ else:
     print("Accès refusé")
 ```
 
+## Interactivité ?
+
 Maintenant on va voir comment rendre le programme **intéractif** en demandant à l'utilisateur des informations
 
 Très simple il suffit d'utiliser la fonction `input()`
@@ -132,6 +134,8 @@ Pour convertir en réel on utilise la fonction `float()`
 taille = int(input("Votre taille: "))
 print("Je mesure", taille, "m")
 ```
+
+## Fuuuuuuuuuuuuuuuuusion !
 
 Maintenant, reprenons le programme précedent qui parlait de l'autorisation et rendons-le interactif
 
