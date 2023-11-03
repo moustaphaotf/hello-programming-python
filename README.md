@@ -1,5 +1,5 @@
 # Introcution à la programmation python
-Nous apprenons les bases de la programmation avec pythons avec quelques notions essentielles
+Nous apprenons les bases de la programmation avec le langage `python` avec quelques notions essentielles
 Ce que ce didactitiel couvre:
 
 * [Bases (print, input, conditions)](README.md)
@@ -28,7 +28,7 @@ Donc pour afficher un *message*, il suffit de passer le message à `print()`
 ## Les variables
 Les variables servent à contenir des données en mémoire pour les réutiliser
 
-**Exemple:** , afficher le nom complet `"Adama Dian Diallo"`
+**Exemple:** afficher le nom complet `"Adama Dian Diallo"`
 ```py
 fullname = "Adama Dian Diallo"
 print(fullname)
@@ -131,11 +131,11 @@ Pour convertir en réel on utilise la fonction `float()`
 **Exemple:** lui demander la taille et l'afficher
 
 ```py
-taille = int(input("Votre taille: "))
+taille = float(input("Votre taille: "))
 print("Je mesure", taille, "m")
 ```
 
-## Fuuuuuuuuuuuuuuuuusion !
+## Fuuuuuuuuuuusionnnn !
 
 Maintenant, reprenons le programme précedent qui parlait de l'autorisation et rendons-le interactif
 
