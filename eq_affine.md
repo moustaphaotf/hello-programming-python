@@ -1,7 +1,6 @@
 # Equations affines
 
-Dans ce programme, nous allons penser à comment faire pour résoudre une équation
-affine de la forme `ax + b = 0` et d'afficher la solution
+Dans ce programme, nous allons penser à comment faire pour résoudre une équation affine de la forme `ax + b = 0` et d'afficher la solution
 
 ```py
 x = -b/a
@@ -16,6 +15,7 @@ else :
 ```
 
 Découvrez les autre sections du didacticiel:
+
 * [Bases (print, input, conditions)](README.md)
 * [Boucles](boucles.md)
 * [Dessins (fonctions, boucles)](dessins.md)

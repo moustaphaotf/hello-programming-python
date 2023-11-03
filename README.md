@@ -9,6 +9,7 @@ Ce que ce didactitiel couvre:
 
 ## Les bases
 On commence par afficher, ou imprimer à la console
+
 La fonction utilisée est `print()`
 
 **Exemple:** afficher "Hello World !"
@@ -26,6 +27,7 @@ Donc pour afficher un *message*, il suffit de passer le message à `print()`
 ------------------------------------------------------------
 ## Les variables
 Les variables servent à contenir des données en mémoire pour les réutiliser
+
 **Exemple:** , afficher le nom complet `"Adama Dian Diallo"`
 ```py
 fullname = "Adama Dian Diallo"
@@ -33,6 +35,7 @@ print(fullname)
 ```
 
 Même **exemple** avec un message plus significatif
+
 ```py
 fullname = "Adama Dian Diallo"
 print("Je m'appelle", fullname)
@@ -47,8 +50,11 @@ print("J'ai", age, "ans")
 ```
 
 Voilà, c'est très sympa non ?
+
 Allons plus en profondeur et découvrons les conditions
+
 **Exemple:** Dire si "Adama Dian Diallo" est majeure ou mineure
+
 ```py
 fullname = "Adama Dian Diallo"
 age = 18
@@ -62,7 +68,9 @@ else:
 ```
 
 **Hourrray !**
+
 Encore, rajoutons une autre variable `taille` et affichons-la avec un message significatif
+
 ```py
 fullname = "Adama Dian Diallo"
 age = 18
@@ -74,8 +82,11 @@ print("Je mesure", taille, "m")
 
 ## Les conditions
 Hummm bravo !
+
 Utilisons encore les conditons pour dire si `"Adama Dian Diallo"` a les accès pour la foire
+
 > Si elle a plus de 18 ans et mesure plus de 1.2m alors elle a accès, dans le cas contraire, l'accès est refusé
+
 ```py
 fullname = "Adama Dian Diallo"
 age = 12
@@ -92,29 +103,38 @@ else:
 ```
 
 Maintenant on va voir comment rendre le programme **intéractif** en demandant à l'utilisateur des informations
+
 Très simple il suffit d'utiliser la fonction `input()`
+
 **Exemple:** Lui demander le nom et l'afficher
+
 ```py
 fullname = input("Votre nom: ")
 print("Je m'appelle", fullname)
 ```
 
 Mais attention, si on veut un entier ou un nombre à virgule, il faut les convertir !
+
 Pour convertir en entier on utilise la fonction `int()`
+
 **Exemple:** lui demander l'age et l'afficher
+
 ```py
 age = int(input("Votre age: "))
 print("J'ai", age, "ans")
 ```
 
-Pour convertir en réel on utilise la fonction float()
+Pour convertir en réel on utilise la fonction `float()`
+
 **Exemple:** lui demander la taille et l'afficher
+
 ```py
 taille = int(input("Votre taille: "))
 print("Je mesure", taille, "m")
 ```
 
 Maintenant, reprenons le programme précedent qui parlait de l'autorisation et rendons-le interactif
+
 ```py
 fullname = input("Votre nom: ")
 age = int(input("Votre age: "))
@@ -132,6 +152,7 @@ else:
 ```
 
 Ensuite, nous allons apprendre les boucles et les fonctions
+
 * [Equations affines](eq_affine.md)
 * [Boucles](boucles.md)
 * [Dessins (+fonctions, +boucles)](dessins.md)
