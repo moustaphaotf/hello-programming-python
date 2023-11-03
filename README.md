@@ -48,6 +48,7 @@ age = 18
 print("Je m'appelle", fullname)
 print("J'ai", age, "ans")
 ```
+## Les conditions
 
 Voilà, c'est très sympa non ?
 
@@ -80,7 +81,6 @@ print("J'ai", age, "ans")
 print("Je mesure", taille, "m")
 ```
 
-## Les conditions
 Hummm bravo !
 
 Utilisons encore les conditons pour dire si `"Adama Dian Diallo"` a les accès pour la foire
