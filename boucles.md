@@ -70,7 +70,7 @@ for i in range(10):
 
 On peut aussi compter avec les boucles, et même faire des calculs
 
-**Exemple 7 **  Afficher de 0 à 9
+**Exemple 7:**  Afficher de 0 à 9
 
 ```py
 for i in range(10):
@@ -84,7 +84,7 @@ for i in range(10):
     print(i + 1)
 ```
 
-**Exemple 9 :**  Calculer la table de multiplication de 10
+**Exemple 9:**  Calculer la table de multiplication de 10
 
 Comme ceci:
 
