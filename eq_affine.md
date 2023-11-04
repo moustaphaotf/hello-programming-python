@@ -3,7 +3,6 @@
 Dans ce programme, nous allons penser à comment faire pour résoudre une équation affine de la forme `ax + b = 0` et d'afficher la solution
 
 ```py
-x = -b/a
 a = float(input("a: "))
 b = float(input("b: "))
 
